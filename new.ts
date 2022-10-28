@@ -81,3 +81,9 @@ interface User {
   lastName: string;
   role: "admin" | "user" | "super-admin";
 }
+type SuperAdmin = "super-admin";
+
+interface User {
+  // ...other stuff
+  role: "admin" | "user" | SuperAdmin;
+}
