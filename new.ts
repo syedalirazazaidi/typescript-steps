@@ -26,13 +26,15 @@ let myObj: [];
 myObj = [];
 // console.log(typeof myObj);
 const cars = ["Saab", "Volvo", "BMW"];
-console.log(cars, "LLL");
+console.log(typeof cars, "LLL");
 // myObj = bands;
 // myObj = {};
 
 const exampleObj = {
   prop1: "Dave",
   prop2: true,
+  prop3: 5,
 };
 
-exampleObj.prop1 = "John";
+exampleObj.prop3 = 43;
+console.log(exampleObj);

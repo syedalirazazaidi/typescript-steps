@@ -17,11 +17,13 @@ var myObj;
 myObj = [];
 // console.log(typeof myObj);
 var cars = ["Saab", "Volvo", "BMW"];
-console.log(cars, "LLL");
+console.log(typeof cars, "LLL");
 // myObj = bands;
 // myObj = {};
 var exampleObj = {
     prop1: "Dave",
-    prop2: true
+    prop2: true,
+    prop3: 5
 };
-exampleObj.prop1 = "John";
+exampleObj.prop3 = 43;
+console.log(exampleObj);
